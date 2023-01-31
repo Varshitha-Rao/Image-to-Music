@@ -64,7 +64,7 @@ print(pixel_df)
 frequencies = pixel_df['notes'].to_numpy()
 
 music = np.array([]) 
-rate = 22050 
+rate = 44100
 T = 0.1  
 t = np.linspace(0, T, int(T*rate), endpoint=False) 
 
